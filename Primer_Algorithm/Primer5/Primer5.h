@@ -1,5 +1,5 @@
-#ifndef PRIMER
-#define PRIMER
+#ifndef __PRIMER_H__
+#define __PRIMER_H__
 
 int find_Primer(int N, int * arr);
 
