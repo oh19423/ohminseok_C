@@ -6,6 +6,7 @@ int find_Primer(int N)
 {
 	for (int i = 2; i <= (int)sqrt(N); i++)
 	{
+		if (i % 2 == 0) continue;
 		if (N % i == 0) return -1;
 	}
 
