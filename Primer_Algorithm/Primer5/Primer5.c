@@ -4,8 +4,6 @@
 
 int find_Primer(int N, int * arr)
 {
-	int flag = 0;
-
 	for (int i = 0; arr[i] <= (int)sqrt(N); i++)
 	{
 		if (N % arr[i] == 0) return -1;
