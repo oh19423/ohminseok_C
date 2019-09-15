@@ -9,6 +9,7 @@ void find_Primer(int* arr, int num)
 
 		for (int j = i + 1; j <= num; j++)
 		{
+			if (arr[j] == 0) continue;
 			if (arr[j] % arr[i] == 0) arr[j] = 0;
 		}
 	}
