@@ -45,10 +45,10 @@ void cal(char* str, int count)
 				sci[top] = a + b;
 				break;
 			case '-':
-				sci[top] = a - b;
+				sci[top] = b - a;
 				break;
 			case '/':
-				sci[top] = a / b;
+				sci[top] = b / a;
 				break;
 			case '*':
 				sci[top] = a * b;
