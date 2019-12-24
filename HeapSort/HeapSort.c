@@ -34,4 +34,4 @@ int main(void)
 	printf("\n");
 	fclose(fp);
 	return 0;
-}
+} 
